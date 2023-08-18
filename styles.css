@@ -1,0 +1,35 @@
+#scoreBoard {
+  height: 100px;
+  width: 600px;
+  text-align: center;
+  background-color: blue;
+
+  margin: auto;
+  color: white;
+}
+#currentScore {
+  height: 100px;
+  width: 600px;
+  text-align: center;
+  background-color: red;
+  display: flex;
+  margin: auto;
+  color: white;
+  justify-content: space-between;
+}
+#playerScoreBoard {
+  border: 2px solid black;
+  width: 40%;
+}
+#computerScoreBoard {
+  border: 2px solid black;
+  width: 40%;
+}
+#finalResult {
+  height: 200px;
+  width: 600px;
+  text-align: center;
+  background-color: black;
+  margin: auto;
+  color: white;
+}
